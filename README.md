@@ -62,12 +62,16 @@ Dependencies:
    ```
    Open a web browser and go to http://localhost:5000/. You will see the Control Panel of SecureGuard Keylogger Sentry.
    ```
-3. Functionality:
+Functionality:
+
+1. Add to Startup: Adds the monitoring tool to system startup.
+2. Remove from Startup: Removes the monitoring tool from system startup.
+3. Start Monitoring: Initiates monitoring of system resources and file events.
+4. Stop Monitoring: Stops monitoring of system resources and file events.
+5. View Logs: Displays real-time logs of monitored file events.
+6. Check Vulnerabilities: Checks for vulnerabilities using CVE data from NVD.
+7. Check File Access: Checks file access permissions for a specified process ID
+
+
+
    
-   a. Add to Startup: Adds the monitoring tool to system startup.
-   b. Remove from Startup: Removes the monitoring tool from system startup.
-   c. Start Monitoring: Initiates monitoring of system resources and file events.
-   d. Stop Monitoring: Stops monitoring of system resources and file events.
-   e. View Logs: Displays real-time logs of monitored file events.
-   f. Check Vulnerabilities: Checks for vulnerabilities using CVE data from NVD.
-   g. Check File Access: Checks file access permissions for a specified process ID
