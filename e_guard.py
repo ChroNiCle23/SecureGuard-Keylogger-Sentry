@@ -65,6 +65,21 @@ def vulnerability_results():
     log_content = read_log_file('vulnerability_results.log')  # Read from vulnerability_results.log
     return render_template('vulnerability_results.html', log_content=log_content)
 
+@app.route('/check-file-access')
+def check_file_access():
+    pid = request.args.get('pid')
+    result, details = monitor.check_file_access(pid)
+    if result:
+        metadata = monitor.get_file_metadata(details['file_path'])
+        response = {
+            'result': 'Access to sensitive file detected.',
+            'details': details,
+            'metadata': metadata
+        }
+        return jsonify(response)
+    else:
+        return jsonify({'result': 'No access to sensitive files detected.'})
+
 def read_log_file(log_file_path):
     with open(log_file_path, 'r') as log_file:
         log_content = log_file.read()
