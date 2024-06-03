@@ -75,6 +75,13 @@ Dependencies:
    Check Vulnerabilities: Checks for vulnerabilities using CVE data from NVD.
    Check File Access: Checks file access permissions for a specified process ID
    ```
+# Screenshots
+![image](https://github.com/ChroNiCle23/SecureGuard-Keylogger-Sentry/assets/161189544/0ecdaf30-ab4f-457d-be46-9ace69870de1)
+![image](https://github.com/ChroNiCle23/SecureGuard-Keylogger-Sentry/assets/161189544/02aa18c5-904f-46b2-b2ba-62d288690332)
+![image](https://github.com/ChroNiCle23/SecureGuard-Keylogger-Sentry/assets/161189544/83162d62-5e98-42a6-b966-f72af4209023)
+![image](https://github.com/ChroNiCle23/SecureGuard-Keylogger-Sentry/assets/161189544/00dd79bf-68f5-4909-b334-b9869f8bb778)
+
+
 
 
 
