@@ -21,17 +21,20 @@ Dependencies:
    ```
    python3 --version
    ```
-3. If Python is not installed or you have lower version, You can download Python from the official website: https://www.python.org/downloads/
-4. Flask is used in this project to create the web application interface for SecureGuard Keylogger Sentry.
+3. If Python is not installed or you have lower version, You can download Python from the official website:
+   ```
+    https://www.python.org/downloads/
+   ```
+5. Flask is used in this project to create the web application interface for SecureGuard Keylogger Sentry.
    ```
    pip install flask
    pip install Flask-RESTful
    ```
-5. Watchdog is used to monitor changes in directories and files, allowing the system to react to any suspicious activities.
+6. Watchdog is used to monitor changes in directories and files, allowing the system to react to any suspicious activities.
    ```
    pip install watchdog
    ```
-6. SecureGuard Keylogger Sentry utilizes Psutil to monitor system resources, detect high CPU/memory usage, and identify potentially malicious processes.
+7. SecureGuard Keylogger Sentry utilizes Psutil to monitor system resources, detect high CPU/memory usage, and identify potentially malicious processes.
    ```
    pip install psutil
    ```
@@ -62,15 +65,16 @@ Dependencies:
    ```
    Open a web browser and go to http://localhost:5000/. You will see the Control Panel of SecureGuard Keylogger Sentry.
    ```
-Functionality:
-
-1. Add to Startup: Adds the monitoring tool to system startup.
-2. Remove from Startup: Removes the monitoring tool from system startup.
-3. Start Monitoring: Initiates monitoring of system resources and file events.
-4. Stop Monitoring: Stops monitoring of system resources and file events.
-5. View Logs: Displays real-time logs of monitored file events.
-6. Check Vulnerabilities: Checks for vulnerabilities using CVE data from NVD.
-7. Check File Access: Checks file access permissions for a specified process ID
+3. Functionality:
+   ```
+   Add to Startup: Adds the monitoring tool to system startup.
+   Remove from Startup: Removes the monitoring tool from system startup.
+   Start Monitoring: Initiates monitoring of system resources and file events.
+   Stop Monitoring: Stops monitoring of system resources and file events.
+   View Logs: Displays real-time logs of monitored file events.
+   Check Vulnerabilities: Checks for vulnerabilities using CVE data from NVD.
+   Check File Access: Checks file access permissions for a specified process ID
+   ```
 
 
 
