@@ -1,0 +1,115 @@
+/* styles.css */
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.card {
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+.log-content {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 0.5rem;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 500px;
+    max-width: 100%;
+    scrollbar-width: thin;
+    scrollbar-color: #ced4da #f8f9fa;
+}
+
+.log-content::-webkit-scrollbar {
+    width: 10px;
+}
+
+.log-content::-webkit-scrollbar-thumb {
+    background-color: #ced4da;
+    border-radius: 6px;
+}
+
+.log-content::-webkit-scrollbar-track {
+    background-color: #f8f9fa;
+}
+
+.log-content:hover {
+    background-color: #e9ecef;
+}
