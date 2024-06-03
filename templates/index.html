@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShield Keylogger Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+          crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">CyberShield Keylogger Tool</h2>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Control Panel</h5>
+                <p class="card-text">Use the buttons below to manage the keylogger tool.</p>
+                <a href="/add-to-startup" class="btn btn-primary mr-3">Add to Startup</a>
+                <a href="/remove-from-startup" class="btn btn-danger mr-3">Remove from Startup</a>
+                <a href="/start-monitoring" class="btn btn-success mr-3">Start Monitoring</a>
+                <a href="/stop-monitoring" class="btn btn-warning">Stop Monitoring</a>
+            </div>
+        </div>
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Logs</h5>
+                <p class="card-text">View real-time logs from the keylogger tool.</p>
+                <a href="/view-logs" class="btn btn-info">View Logs</a>
+            </div>
+        </div>
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Security Checks</h5>
+                <p class="card-text">Perform security checks and assessments.</p>
+                <a href="/check-vulnerabilities" class="btn btn-primary mr-3">Check Vulnerabilities</a>
+                <form action="/check-file-access" method="get">
+                    <div class="form-group">
+                        <label for="pidInput">Enter Process ID:</label>
+                        <input type="number" class="form-control" id="pidInput" name="pid" required>
+                    </div>
+                    <button type="submit" class="btn btn-warning">Check File Access</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"
+            integrity="sha384-gNyuRg3a3zyW/OMVHQO5aJH4jPPIvvMPbwDTfxMUL3V6GJ9i4XGZRgTseD0J1E2o"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy2n0DH2+Xm6D6lBcfU1AMd1d8P6O8/rs7"
+            crossorigin="anonymous"></script>
+</body>
+</html>
