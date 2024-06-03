@@ -43,7 +43,31 @@ Dependencies:
     ```
    pip install flask-bootstrap
    ```
-11. Git Clone
-12. 
+10. Git Clone
+    ```
+    https://github.com/ChroNiCle23/SecureGuard-Keylogger-Sentry.git
+    ```
+11. Configuration:
+    ```
+    Replace VT_API_KEY in monitor.py with your VirusTotal API key.
+    Ensure that you have Python 3.5+ installed.
+    ```
 
 # Usage
+1. Starting the Application
+   ```
+   python e_guard.py
+   ```
+2. Accessing the Control Panel:
+   ```
+   Open a web browser and go to http://localhost:5000/. You will see the Control Panel of SecureGuard Keylogger Sentry.
+   ```
+3. Functionality:
+
+Add to Startup: Adds the monitoring tool to system startup.
+Remove from Startup: Removes the monitoring tool from system startup.
+Start Monitoring: Initiates monitoring of system resources and file events.
+Stop Monitoring: Stops monitoring of system resources and file events.
+View Logs: Displays real-time logs of monitored file events.
+Check Vulnerabilities: Checks for vulnerabilities using CVE data from NVD.
+Check File Access: Checks file access permissions for a specified process ID
