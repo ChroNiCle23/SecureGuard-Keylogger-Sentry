@@ -65,9 +65,6 @@ def vulnerability_results():
     log_content = read_log_file('vulnerability_results.log')  # Read from vulnerability_results.log
     return render_template('vulnerability_results.html', log_content=log_content)
 
-
-
-
 def read_log_file(log_file_path):
     with open(log_file_path, 'r') as log_file:
         log_content = log_file.read()
