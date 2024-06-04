@@ -80,6 +80,8 @@ Dependencies:
 ![image](https://github.com/ChroNiCle23/SecureGuard-Keylogger-Sentry/assets/161189544/02aa18c5-904f-46b2-b2ba-62d288690332)
 ![image](https://github.com/ChroNiCle23/SecureGuard-Keylogger-Sentry/assets/161189544/83162d62-5e98-42a6-b966-f72af4209023)
 ![image](https://github.com/ChroNiCle23/SecureGuard-Keylogger-Sentry/assets/161189544/00dd79bf-68f5-4909-b334-b9869f8bb778)
+![image](https://github.com/ChroNiCle23/SecureGuard-Keylogger-Sentry/assets/161189544/98154169-7489-48d7-96c4-cfbd3486fe31)
+
 
 
 
