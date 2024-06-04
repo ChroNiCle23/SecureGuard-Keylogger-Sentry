@@ -70,7 +70,7 @@ def check_file_access():
     pid = request.args.get('pid')
     result, details = monitor.check_file_access(pid)
     if result:
-        metadata = monitor.get_file_metadata(details['file_path'])
+        metadata = monitor.get_file_metadata(details.get('file_path', ''))
         response = {
             'result': 'Access to sensitive file detected.',
             'details': details,
